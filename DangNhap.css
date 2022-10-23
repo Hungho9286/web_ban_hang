@@ -1,0 +1,445 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  body{
+    background-color: #f1f0f1;
+  }
+  .head{
+    background-color: #1435c3;
+    display:flex;
+    justify-content:flex-end;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
+}
+.item-head{
+    margin: 10px 20px 10px 20px;
+    color:white;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 500;
+}
+.css-78{
+    background-color:#1435c3;
+    max-width: 100%;
+    height: auto;
+}
+#search{
+    max-width: 100%;
+    height: auto;
+    margin-top:0;
+    z-index: 10;
+}
+.search_box{
+    width:450px;
+    height: 40px;
+    padding:10px;
+    margin-right: 3px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+}
+.button_search{
+background-color: #1435c3;
+background-size: cover;
+width: 40px;
+height: 37px;
+padding:2px;
+cursor: pointer;
+border: rgb(211, 202, 202);
+border-radius: 10px;
+}
+.search button:hover{
+    background-color: rgb(1, 1, 207);
+}
+.css_search_box:focus{
+outline: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .css-74{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+.css-79{
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:0;
+    padding-top: 20px;
+    z-index: 10;
+}
+.css-80{
+    margin-top: 0;
+    max-width: 25%;
+    height: auto;
+    background-color: white;
+    z-index: 10;
+    border:1px solid #f1f0f1;
+    border-radius: 5px;
+    position: absolute;
+    right: 170px;
+    display: block;
+}
+.css-86:hover .css-87 { display:block;
+}
+.css-87{
+    width: auto;
+    height: auto;
+    display: none;
+}
+.css-81{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 150px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.css-81 p{
+    margin-top: 10px;
+    color: #333;
+}
+.css-82{
+width: auto;
+height: auto;
+margin: 20px 15px 15px 15px;
+}
+.css-83{
+    display: flex !important;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    color: #848788;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none;
+}
+.css-83:hover{
+    color:#1435c3;
+  }
+.css-83 p{
+    font-size: 0.9em;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.css-84{
+    font-size: xx-large;
+    margin-top: 3px;
+}
+.css-85{
+   width: auto;
+   height: auto;
+}
+.css-75{
+    color: #9b9b9b;
+    margin: 10px;
+    font-size: xx-large !important;
+}
+.css-76{
+    text-align: center;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.css-77{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+#css-85{
+    display: inline-block;
+    position: relative;
+}
+.css-76 p{
+    color:#848788;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.css-76:hover p{
+    color:rgb(20, 53, 195);
+}
+.css-76:hover i{
+    color:#1435c3;
+}
+.css-86{
+    width: auto;
+    height: auto;
+    }
+.css-88{
+    cursor: pointer;
+    background-color: rgb(20, 53, 195);
+    border:1px solid rgb(20, 53, 195);
+    margin: 20px 0 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    width: 100%;
+}
+.css-88:hover{
+    background-color: rgb(17, 43, 160);
+}
+.content{
+    background-color: #F1F0F1;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+}
+.login-form{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10% 0% 10% 0%;
+}
+.login-form h3{
+    text-align: center;
+}
+.login-form h4{
+    text-align: center;
+}
+.form-button{
+    display: block;
+    margin: auto auto 15px auto;
+    width: 50%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.blue{
+    background-color: rgb(45,136,255);
+}
+.red{
+    background-color: rgb(220,78,66);
+}
+.form-button i{
+    font-size: 15px;
+}
+.phone i{
+    color:  rgb(220,78,66);
+}
+.phone{
+    background-color: white;
+    color: black;
+    border: solid 1px rgb(220,78,66);
+}
+.blue:hover{
+    background-color: rgb(22, 22, 179);
+}
+.red:hover{
+    background-color: rgb(211, 24, 24);
+}
+.phone:hover{
+    background-color: rgb(245, 217, 217);
+}
+.send{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 20px;
+    background-color: rgb(22, 22, 179);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+.send:hover{
+    background-color: #12226b;
+}
+
+.login-form h3,h4 {
+    margin: 10px;
+}
+input {
+    padding: 10px;
+    width: 50%;
+}
+#sign { 
+    display: none;
+    height: auto;
+}
+.more {
+    margin-top: 20px;
+}
+.error_Massage{
+    color: red;
+    margin-top: 10px;
+}
+#error{
+display: none;
+}
+
+.information{
+    width: 100%;
+    height: 500px;
+    background-color: #1435c3;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.css-97{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.css-98{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.css-99{
+    width: auto;
+    color:#333;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.css-100{
+    font-weight: 700;
+}
+.css-101{
+    font-size: 0.8em;
+    color: rgb(51, 51, 51);
+}
+.css-101 a{
+    margin: 3px;
+    margin-top: 7px;
+    display: block;
+    text-decoration: none;
+    
+}
+.css-101 a:hover{
+    color: #1435c3;
+}
+.fa-facebook-square{
+color: #485992 !important;
+}
+.red_color{
+    color:rgb(218, 67, 67);
+}
+.fa-youtube-play{
+    color: #cf2200;
+}
+.fa-users{
+color:#00AFF7;
+}
+.css-102{
+    position: absolute;
+    top:2px;
+    width: 100%;
+    color: #333;
+    height: auto;
+}
+.css-103{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.css-104{
+    margin-top: 10px;
+    width: 100%;
+    color:rgb(51, 51, 51);
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.css-104 a{
+    text-decoration: none;
+    margin: 2px;
+}
+.css-105{
+    width:30%;
+    height: auto;
+}
+.css-106{
+    width:60%;
+    height: auto;
+    margin-left: 100px;
+}
+.css-105 a:hover{
+    color: #1435c3;
+    font-weight: 600;
+}
+.css-107{
+    background-color: #e9edf2;
+    width: 100%;
+    height: 300px;
+    height: auto;
+}
+.css-108{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.css-109{
+    margin-top: 30px;
+    width: 40%;
+    margin-right: 60px;
+}
+.css-109 p{
+    font-size: 0.8em;
+}
+.css-110{
+    width: auto;
+    margin-top: 30px;
+    font-size: 0.8em;
+}
+.css-111{
+    color: #333;
+    font-weight: 700;
+}
+.css-112{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 300px;
+}
+.css-98 a{
+    color: #333;
+  }
+
+  .css-113{
+    position: fixed;
+    top:140px;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    right: -33%;
+}
+.css-114{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#mess{
+    position: relative;
+    right: 20%;
+}
